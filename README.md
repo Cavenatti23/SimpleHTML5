@@ -1,5 +1,42 @@
 # SimpleHTML5
 "UNES - Página Principal" é uma página HTML simples com layout em tabela.
-"UNES - Página Principal" é uma página HTML que apresenta um layout simples. A página contém uma tabela com borda definida como 0 e uma largura de 900 pixels. A primeira linha da tabela contém um logotipo da universidade e um cabeçalho com três links: "Home", "Quem somos" e "Contato". O cabeçalho está alinhado à direita da tabela. A segunda linha contém uma imagem de destaque que abrange as duas colunas da tabela. A terceira linha contém um texto explicativo sobre a universidade que inclui dois parágrafos. O texto está centralizado na tabela e tem um tamanho de fonte padrão. A quarta linha contém um rodapé com o texto "Todos os direitos reservados", centralizado na tabela.
 
-Este exemplo simples de página HTML usa uma tabela para estruturar o conteúdo e é útil para praticar a criação de tabelas em HTML e a formatação básica de texto. A página é um exemplo básico de como criar uma estrutura de página usando tabelas, um cabeçalho e um rodapé.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UNES - Página Principal</title>
+	<meta charset="utf-8">
+	</head>
+
+	<body background="imagens projeto final/fundo.png">
+		<table border ="0" width="900" align="center">
+			<tr>
+				<td height="89"><img src="imagens projeto final/logo.png"></td>
+				<td align="Right">
+					<a href="">Home |</a>
+					<a href="quem-somos.html">Quem somos |</a>
+					<a href="contato.html">Contato |</a>
+					
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2"><img src="imagens projeto final/capa.png"></td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					
+					<h2> Sobre a Universidade</h2>
+					<p>
+						<strong>LoremIpsum </strong>  is simply dummy text of the printing and <em>typesetting industry</em>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+						<p>
+						<strong>LoremIpsum </strong>  is simply dummy text of the printing and <em>typesetting industry</em>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><h4> Todos os direitos reservados</h4></td>
+			</tr>
+		</table>
+	</body>
+</html>
