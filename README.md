@@ -1,2 +1,5 @@
 # SimpleHTML5
 "UNES - Página Principal" é uma página HTML simples com layout em tabela.
+"UNES - Página Principal" é uma página HTML que apresenta um layout simples. A página contém uma tabela com borda definida como 0 e uma largura de 900 pixels. A primeira linha da tabela contém um logotipo da universidade e um cabeçalho com três links: "Home", "Quem somos" e "Contato". O cabeçalho está alinhado à direita da tabela. A segunda linha contém uma imagem de destaque que abrange as duas colunas da tabela. A terceira linha contém um texto explicativo sobre a universidade que inclui dois parágrafos. O texto está centralizado na tabela e tem um tamanho de fonte padrão. A quarta linha contém um rodapé com o texto "Todos os direitos reservados", centralizado na tabela.
+
+Este exemplo simples de página HTML usa uma tabela para estruturar o conteúdo e é útil para praticar a criação de tabelas em HTML e a formatação básica de texto. A página é um exemplo básico de como criar uma estrutura de página usando tabelas, um cabeçalho e um rodapé.
